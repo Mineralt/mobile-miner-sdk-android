@@ -1,5 +1,7 @@
 # MinerAlt SDK for Android 
 
+Note: you must have mineralt.io account to use this SDK.
+
 ## Contents
 SDK distribution contains two files:
 * `mlt-release.aar`: Android library (SDK) for mobile miner

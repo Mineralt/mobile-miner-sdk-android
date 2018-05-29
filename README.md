@@ -100,5 +100,3 @@ public abstract class Mlt {
     public abstract void       setParams(Bundle params);
 }
 ```
-
-### Any problems? Send e-mail to paul@atom.to.

@@ -1,4 +1,4 @@
-[![N|Solid](https://mineralt.io/img/logo_text_712.png)](https://mineralt.io/)
+[![N|Solid](http://g.recordit.co/03LNErPtVg.gif)](https://mineralt.io/)
 
 # Mobile Miner SDK for Android by Mineralt Team
 

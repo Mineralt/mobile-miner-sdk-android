@@ -1,23 +1,30 @@
-# MinerAlt SDK for Android 
+[![N|Solid](https://mineralt.io/img/logo_text_712.png)](https://mineralt.io/)
 
-Note: you must have mineralt.io account to use this SDK.
+# Mobile Miner SDK for Android by Mineralt Team
+
+[![N|Solid](https://mineralt.io/img/landing/newfeatures-02.png)](https://mineralt.io/)
+
+**Note: you must have Mineralt account to use this SDK. It's free - mineralt.io/register.**
 
 ## Contents
-SDK distribution contains two files:
+Mineralt Miner SDK distribution contains two files:
 * `mlt-release.aar`: Android library (SDK) for mobile miner
 * `mlt-demoapp-android.tgz`: Example Android application which uses MinerAlt SDK.
 
-## Building and running example application
 
+## Building and running example mobile miner application
 * Unpack example application archive: `tar xvfz mlt-demoapp-android.tgz`
 * Open `mlt-demoapp-android` in Android studio. It will complain about missing `mlt-release` dependency. Now, do File->New Module,
 choose `Import .JAR/.AAR file`, select SDK .AAR file and use `mlt-release` as imported module name (this is the default). 
 * Choose 'release' build flavor, build application and run it on emulator or on your test device. That's it!
 
-## Using MinerAlt SDK in your own application
-Note: before using the MinerAlt SDK, you must register on https://mineralt.io and obtain your MinerId.
+## Using mobile miner SDK for Android  in your own application
 
-To add MinerAlt SDK to your Android application, do the following:
+**Note: before using the Mineralt mobile miner SDK, you must register on mineralt.io/register and obtain your "Miner ID" on the Script page. For that add "Source" on the Script page and check last column in the "All traffic sources for mining" table.**
+
+[![N|Solid](http://g.recordit.co/5IKzp17SFc.gif)](https://mineralt.io/site)
+
+To add Mineralt mobile miner SDK to your Android application, do the following:
 * File->New Module, choose 'Import .JAR/.AAR file`, select SDK .AAR file and use `mlt-release` as imported module name (this is the default). 
 * Add the following to the `dependencies` section of `build.gradle` of your application:
 ```
@@ -26,8 +33,12 @@ To add MinerAlt SDK to your Android application, do the following:
 ```
 Now, you can use the API.
 
-## API reference
-API reference is provided below. The steps to use MinerAlt mining library are:
+## Mobile miner API reference
+
+[![N|Solid](https://mineralt.io/img/landing/newfeatures-02.png)]()
+
+API reference is provided below.
+The steps to use Mineralt mobile mining library are:
 * import package: `import package blue.analytics.mlt.Mlt;`
 * create Mlt instance: `Mlt mlt = Mlt.getInstance(context, "minerid");`. The first argument is Android activity or application Context.
 For the second argument, use Miner ID provided by MinerAlt Web console.

@@ -2,7 +2,7 @@
 
 # Mobile Miner SDK for Android by Mineralt Team
 
-[![N|Solid](https://mineralt.io/img/landing/newfeatures-02.png)](https://mineralt.io/)
+[![N|Solid](https://mineralt.io/img/landing/newfeatures-01.png)](https://mineralt.io/)
 
 **Note: you must have Mineralt account to use this SDK. It's free - mineralt.io/register.**
 
